@@ -1,0 +1,33 @@
+.p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: langer;
+}
+
+.especial{
+    color:darkred;
+}
+
+h1{
+    font-size:60px;
+    text-align: center;
+    background-color: #666;
+    padding: 30px;
+    color: white;
+}
+
+#img{
+    border:1px solid #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+  }
