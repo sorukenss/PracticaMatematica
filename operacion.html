@@ -5,14 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operacion Matematica</title>
-    <link rel="stylesheet" href="./styleoperacion.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>Operaciones Matematica 1.0</h1>
-    <ul>
-        <a href="index.html" title="Inicio"><li>Inicio</li></a>
-        <a href="aprender.html" title="Aprender"><li>Aprende</li></a>
-        <a href="operacion.html" title="Operacion"><li>Operacion</li></a>
-   </ul>
+    <nav>
+        <ul>
+             <a href="index.html" title="Inicio"><li>Inicio</li></a>
+             <a href="aprender.html" title="Aprender"><li>Aprende</li></a>
+             <a href="operacion.html" title="Operacion"><li>Operacion</li></a>
+        </ul>
+      </nav>
+      <div class="calculadora-grilla">
+        <div class="output">
+            <input class="display" type="text" id="result" placeholder="0">
+        </div>
+        <button name="data-number">1</button>
+        <button name="data-number">2</button>
+        <button name="data-number">3</button>
+        <button name="data-opera">+</button>
+        <button name="data-number">4</button>
+        <button name="data-number">5</button>
+        <button name="data-number">6</button>
+        <button name="data-opera">-</button>
+        <button name="data-number">7</button>
+        <button name="data-number">8</button>
+        <button name="data-number">9</button>
+        <button name="data-opera">/</button>
+        <button name="data-delete">C</button>
+        <button name="data-number">0</button>
+        <button name="data-igual">=</button>
+        <button name="data-opera">x</button>
+
+    </div>
+    <script src="calculadora.js"></script>
+      
 </body>
 </html>

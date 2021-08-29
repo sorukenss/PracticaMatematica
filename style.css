@@ -1,22 +1,33 @@
 .p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: langer;
+    color:mediumblue
+}
+.titulop{
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Brush Script MT', cursive;
+    text-indent: 438px;
+
+}
+.especial{
+    color:black;
+    text-indent: 438px;
+    
 }
 
-.especial{
-    color:darkred;
-}
 
 h1{
     font-size:60px;
     text-align: center;
-    background-color: #666;
+    background-color: black;
     padding: 30px;
     color: white;
 }
 
 #img{
-    border:1px solid #ccc;
+    border:10px solid rgba(0, 0, 0, 0.753);
 }
 
 nav ul {
@@ -27,7 +38,54 @@ nav ul {
   nav {
     float: left;
     width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
+    height: 163px; 
+    background: rgb(129, 124, 124);
     padding: 20px;
   }
+
+  body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #9da9af, #4b5f53);
+}
+
+.calculadora-grilla {
+    
+    display: grid;
+    justify-content: center;
+    align-content: left;
+    min-height: 60vh;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: minmax(80px, auto) repeat(5, 80px);
+}
+
+.calculadora-grilla > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-all; 
+}
+
+.output .display {
+    color: black;
+    font-size: 1.85rem;
+    text-align: right;
+}
+
+.calculadora-grilla > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+
