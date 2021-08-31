@@ -75,7 +75,7 @@ function clear(){
     opeAnterior = '';
     operacion = undefined;
 }
-//estudiar 
+
 
 function actualizarDisplay(){
     result.value = opeActual;
